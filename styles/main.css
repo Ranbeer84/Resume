@@ -47,6 +47,10 @@ a{
 li{
     line-height: 1.9em;
 }
+h1{
+    font-size: 3em;
+    
+}
 
 #container--main{
     max-width: 700px;
@@ -71,12 +75,12 @@ li{
 }
 
 #bio, a{
-    font-weight: 300;
+    font-weight: 3em;
 }
 
 #profile-pic{
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -94,12 +98,12 @@ li{
 
 #socials--list a{
     font-size: 0.9em;
-    color: var(--secondaryTextColor)
-    transparent: 0.3s;
+    color: var(--secondaryTextColor);
+    transition: 0.3s;
 }
 
 #socials--list a:hover{
-    color: var(--mainLinkColor)
+    color: var(--mainLinkColor);
 }
 
 #qualifications--list{
@@ -164,6 +168,7 @@ li{
         width: 200px;
         height: 200px;
     }
+    
 
     #wrapper--hero{
         flex-direction: column;
